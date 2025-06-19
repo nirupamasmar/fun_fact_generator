@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from models.topic_schema import topic_schema
-from agent.fun_fact_generator import generate_llm_response
+from services.fun_fact_generator import generate_llm_response
 
 router = APIRouter()
 
